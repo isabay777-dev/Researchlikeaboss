@@ -1,5 +1,5 @@
 interface:
-  display_name: "ResearchOps"
+  display_name: "Researchlikeaboss"
   short_description: "Local evidence and audit routing for articles"
   default_prompt: "Use $researchops to prepare a token-efficient evidence workflow for this article."
 policy:

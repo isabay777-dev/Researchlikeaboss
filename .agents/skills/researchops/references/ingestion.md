@@ -12,5 +12,5 @@ Read this only when a complex local source must be converted.
 6. Use the stored SHA-256 metadata to link excerpts back to the original.
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops extract ARTICLE SOURCE
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops extract ARTICLE SOURCE
 ```

@@ -7,7 +7,7 @@ Build a narrow query around the exact construct, mechanism, population, method,
 or result. Generate a bounded pack:
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops pack ARTICLE \
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops pack ARTICLE \
   --query "specific mechanism or claim"
 ```
 

@@ -3,9 +3,9 @@ name: researchops
 description: Route academic article work in the Projects workspace through local evidence extraction, bounded evidence packs, free OpenAlex metadata, and the existing publication audit. Use for drafting, revising, sourcing, checking, or preparing scholarly manuscripts; keep ordinary sentence edits in light mode without running heavy tools.
 ---
 
-# ResearchOps
+# Researchlikeaboss
 
-Use ResearchOps as the local evidence-and-audit layer. It complements the
+Use Researchlikeaboss as the local evidence-and-audit layer. It complements the
 academic writing/review skill; it does not replace disciplinary reasoning.
 
 ## Start light
@@ -49,7 +49,7 @@ Escalate only when the task needs one of the modes below.
 From the Projects workspace, run:
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops <command>
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops <command>
 ```
 
 Use the article directory as the first positional path. Generated working state

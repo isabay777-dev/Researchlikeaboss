@@ -1,4 +1,4 @@
-# ResearchOps
+# Researchlikeaboss
 
 Локальный, API-free слой для работы Codex с научными статьями. Он не пишет
 статью вместо Codex и не вызывает отдельную LLM. Его задача — подготовить
@@ -31,18 +31,18 @@ PaperQA2 намеренно не включён в первую версию. Е
 ## Быстрый запуск без установки
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops init path/to/article
-PYTHONPATH=ResearchOps/src python3 -m researchops extract path/to/article source.md
-PYTHONPATH=ResearchOps/src python3 -m researchops pack path/to/article \
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops init path/to/article
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops extract path/to/article source.md
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops pack path/to/article \
   --query "main mechanism and empirical evidence"
-PYTHONPATH=ResearchOps/src python3 -m researchops audit path/to/article \
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops audit path/to/article \
   path/to/article/manuscript.md
 ```
 
 Проверка режима и расходов:
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops status path/to/article
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops status path/to/article
 ```
 
 Поле `api_token_spend` должно быть `0`.
@@ -52,8 +52,8 @@ PYTHONPATH=ResearchOps/src python3 -m researchops status path/to/article
 Устанавливать только при реальной необходимости:
 
 ```bash
-python3 -m pip install -e 'ResearchOps[documents]'
-python3 -m pip install -e 'ResearchOps[discovery]'
+python3 -m pip install -e 'Researchlikeaboss[documents]'
+python3 -m pip install -e 'Researchlikeaboss[discovery]'
 ```
 
 После установки:

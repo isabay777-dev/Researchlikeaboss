@@ -4,7 +4,7 @@ Use after substantive scientific revisions are stable, not after every paragraph
 The audit is read-only with respect to the manuscript.
 
 ```bash
-PYTHONPATH=ResearchOps/src python3 -m researchops audit ARTICLE MANUSCRIPT \
+PYTHONPATH=Researchlikeaboss/src python3 -m researchops audit ARTICLE MANUSCRIPT \
   --journal-config ACADEMIC_PUBLICATION_QA/configs/JOURNAL.json \
   --compare-root FINAL_ARTICLES_TO_SUBMIT
 ```

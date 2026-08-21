@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "researchops-local"
+name = "researchlikeaboss"
 version = "0.1.0"
 description = "API-free evidence and audit utilities for Codex academic writing workflows"
 readme = "README.md"
