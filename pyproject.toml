@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchops-local"
+version = "0.1.0"
+description = "API-free evidence and audit utilities for Codex academic writing workflows"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Issabay Yesmagambetov"}]
+dependencies = []
+
+[project.optional-dependencies]
+documents = ["docling>=2,<3"]
+discovery = ["pyalex>=0.18,<1"]
+all = ["docling>=2,<3", "pyalex>=0.18,<1"]
+
+[project.scripts]
+researchops = "researchops.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
